@@ -7,6 +7,8 @@ public class Hello {
 System.out.println(12345);
 System.out.println(0>5);
 
+System.out.println("Hello");
+
 	}
 
 }
