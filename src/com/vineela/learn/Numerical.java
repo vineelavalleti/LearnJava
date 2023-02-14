@@ -10,12 +10,12 @@ public class Numerical {
 	boolean result=x<y&&a>b;
 	System.out.println(result);
 
-	
+	System.out.print(12345);
 	
 
-	
+	}
 	
 
 	}
 
-}
+
