@@ -15,4 +15,8 @@ public class Computer {
 	public int getPensCost(int cost, int quantity) {
 		return cost * quantity;
 	}
+	
+	public int getComputer(int cost, int quantity) {
+		return cost * quantity;
+	}
 }
