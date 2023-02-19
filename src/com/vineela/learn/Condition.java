@@ -3,45 +3,18 @@ package com.vineela.learn;
 public class Condition {
 
 	public static void main(String[] args) {
-		System.out.println(x(6));
-		System.out.println(x(2));
-		
-		int result = add(10,4,20);
-		
-		System.out.println(result);
-		
-		
-	}
 	
-
-	public static int add(int a,int b, int c) {
-		
-		return a+b+c; 
-	}
-	
-	public static String x(int n) {
-		
-		String day= "";
-
-		if (n == 1)
-			day="monday";
-		else if (n == 2)
-			day="tuesday";
-		else if (n == 3)
-			day="wednesday";
-		else if (n == 4)
-			day="thursday";
-		else if (n == 5)
-			day="friday";
-		else if (n == 6)
-			day="saturday";
+		int x=5;
+		int y=6;
+		if(x==y)
+			System.out.println("one");
+		else if(x>y)
+		System.out.println("two");
+	else if(y<x)
+		System.out.println("three");
+		else if(x<y)
+		System.out.println("four");
 		else
-			day="sunday";
-		
-		return day;
-		
+		System.out.println("five");
 	}
-	
-	
-
 }
