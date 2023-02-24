@@ -16,10 +16,5 @@ public class Computer {
 		return cost * quantity;
 	}
 	
-	public int getComputer(int cost, int quantity) {
-		return cost * quantity;
-	}
-	public int getCPU(int cost, int quantity) {
-		return cost * quantity;
-	}
+
 }
