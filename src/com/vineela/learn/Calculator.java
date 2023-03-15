@@ -1,32 +1,69 @@
 package com.vineela.learn;
 
 public class Calculator {
-	public int add(int x,int y) {
+	int a=0;
+	int b=0;
+	public Calculator() {
 		
-		return x + y;
 	}
-	public int sub(int a,int b) {
+	public Calculator(int a , int b) {
+		this.a = a;
+		this.b=b;
+	}
+	
+	public int totalMarks(Marks m) {
+		return m.getEnglish() + m.getMaths() + m.getScience();
+	}
+	
+	public int somemethod(String s) {
+		return 10;
+	}
+	public static void main(String[] args) {
+		Calculator c = new Calculator();
+		Marks m = new Marks(70,60,80);
+		System.out.println("Englih"+ m.getEnglish());
 		
-		return a-b;
+		int toalMarks = c.totalMarks(m);
+		System.out.println("toalMarks = "+ toalMarks);
+		
+		c.somemethod("20");
+		
 	}
+	
 }
-class AdvancedCalculator extends Calculator{
-	public int mul (int x1,int y1) {
-		return x1*y1;
-		}
-	public int div(int a1,int b1) {
-		return a1/b1;
+
+
+class Marks {
+	int english;
+	int maths;
+	int science;
+	public Marks(int e, int m, int s) {
+		this.english=e;
+		this.maths=m;
+		this.science=s;
+		
+		
+	}
+	public int getEnglish() {
+		return english;
+	}
+	public void setEnglish(int english) {
+		this.english = english;
+	}
+	public int getMaths() {
+		return maths;
+	}
+	public void setMaths(int maths) {
+		this.maths = maths;
+	}
+	public int getScience() {
+		return science;
+	}
+	public void setScience(int science) {
+		this.science = science;
 	}
 	
 	
-}
-class SuperAdvanced extends AdvancedCalculator{
-	public void sqrt() {
-	System.out.println("SQUARE");
-	}
-}
-class NewSuperAdvanced extends SuperAdvanced{
-	public void tan() {
-		System.out.println("TAN");
-	}
+	
+	
 }

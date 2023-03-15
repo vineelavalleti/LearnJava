@@ -9,14 +9,16 @@ public class EmployeeTest {
 		e.setName("Vineela");
 		e.setSal(10000);
 		e.setBonus(1000);
-		System.out.println(e.getId()+e.getName());
+		EmployeeTestUtils utils = new EmployeeTestUtils();
+		utils.printEmployeeDetails(e);
 		
 		Employee e1=new Employee();
 		e1.setId(11);
 		e1.setName("Deeskshita");
 		e1.setSal(20000);
 		e1.setBonus(2000);
-		System.out.println(e1.getBonus());
+		
+		utils.printEmployeeDetails(e1);
 		
 
 	}
