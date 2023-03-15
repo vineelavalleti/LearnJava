@@ -1,8 +1,8 @@
 package com.vineela.learn;
 
 
-class A{
-	public A() 
+class A5{
+	public A5() 
 	{
 		System.out.println("object created");
 	}
@@ -15,8 +15,8 @@ class A{
 public class Super {
 
 	public static void main(String[] args) {
-		new A().show();
-		new A().show();
+		new A5().show();
+		new A5().show();
 	}
 
 }

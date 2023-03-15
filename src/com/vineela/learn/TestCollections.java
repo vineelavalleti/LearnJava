@@ -20,7 +20,7 @@ public class TestCollections {
 		
 		ArrayList<Integer> intList = new ArrayList();
 		
-		intList.add(10) 
+		intList.add(10);
 	
 		
 		Student s1 = new Student(1,"Srinu", 30,40,50);

@@ -10,7 +10,6 @@ public class MultiArray {
 		System.out.println(n[2]);
 		
 		int v[][]=new int[3][4];
-		v[0]
 		
 	}
 

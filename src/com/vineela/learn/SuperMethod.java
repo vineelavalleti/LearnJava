@@ -1,13 +1,13 @@
 package com.vineela.learn;
 
-class B
+class B4
 {
-	public B()
+	public B4()
 	{
 		System.out.println("Deekshita");
 	}
 
-	public B(int n)
+	public B4(int n)
 	{
 		super();
 		System.out.println("in A int");
@@ -15,7 +15,7 @@ class B
 }
 
 
-class C extends B
+class C extends B4
 {
 	public C() 
 	{
