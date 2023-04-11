@@ -9,7 +9,7 @@ public class JDBCTest {
 	public static void main(String[] args) {
 		BufferedReader reader;
 		
-		String
+	
 
 		try {
 			reader = new BufferedReader(new FileReader("sample.txt"));
@@ -28,4 +28,5 @@ public class JDBCTest {
 		}
 
 
+}
 }

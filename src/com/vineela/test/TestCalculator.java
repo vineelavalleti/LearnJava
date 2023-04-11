@@ -1,4 +1,5 @@
 package com.vineela.test;
+import com.vineela.exercises.*;
 
 public class TestCalculator {
 
@@ -13,22 +14,21 @@ public class TestCalculator {
 		
 		
 		
-		/**		for (int i = 0; i < 7; i++) {			
+			for (int i = 0; i < 7; i++) {			
 			for (int j = 0; j <= i; j++) {
 				System.out.print("*");
 			}
 			System.out.println();
 			
 		}
-*/
-	}
-}
 
-public class Calculator {
+	}
+
+
+
 	int num = 5;
-	
-	public Calculator() {
-		//this.num=inputn;
+ {
+		
 		System.out.println("Default Constructior");
 		
 	}
