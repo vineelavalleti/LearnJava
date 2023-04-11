@@ -24,7 +24,7 @@ public class TestCalculator {
 	}
 }
 
-class Calculator {
+public class Calculator {
 	int num = 5;
 	
 	public Calculator() {

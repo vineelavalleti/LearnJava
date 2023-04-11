@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;TestOne.java&apos; to &apos;LearnJava/src/com.vineela.exercises&apos;&#x0D;&#x0A;- Original project: &apos;LearnJava&apos;&#x0D;&#x0A;- Destination element: &apos;LearnJava/src/com.vineela.exercises&apos;&#x0D;&#x0A;- Original element: &apos;com.vineela.TestOne.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.vineela.exercises" element1="/src&lt;com.vineela{TestOne.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1679578161616" units="1" version="1.0"/>
+</session>
